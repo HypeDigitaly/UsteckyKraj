@@ -54590,7 +54590,7 @@
                   " | ",
                   Pe.jsx("a", {
                     target: "_blank",
-                    href: "https://hypedigitaly.ai/cs/GDPR",
+                    href: "https://hypedigitaly.ai/GDPR",
                     rel: "noreferrer",
                     children: "GDPR",
                   }),
