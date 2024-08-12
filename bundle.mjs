@@ -73863,7 +73863,7 @@
               Pe.jsx(NE, {}),
               Pe.jsx(rE, {
                 accept: {
-                  label: "Ukončit chat",
+                  label: "Restartovat konverzaci",
                   type: "warn",
                   onClick: cA(E, oe),
                 },
