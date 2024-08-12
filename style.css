@@ -30,7 +30,7 @@
   height: 40px;
 }
 
-.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-ifPooyZ-css {
+.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-igNKnsM-css {
   width: 50px;
   height: 50px;
   background-size: cover !important;
@@ -108,13 +108,18 @@
 .vfrc-launcher img {
   width: 72px;
   height: 72px;
-  border-radius: 30px;
+  border-radius: 40px;
+}
+
+.vfrc-proactive-message {
+  font-weight: 700;
 }
 
 .vfrc-launcher {
   width: 80px;
   height: 80px;
   background-color: #fff;
+  border: #0000FF 4px solid;
 }
 
 .vfrc-launcher:hover {
