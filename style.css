@@ -22,24 +22,27 @@
 .c-kIbiaN-eyfkxi-size-large {
   width: 72px;
   height: 72px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255 255 255);
   border: #0000ff 1px solid;
 }
 
 .c-iCDrnV .c-kIbiaN {
-  width: 40px;
-  height: 40px;
+  width: 160px;
+  height: 200px;
+  background-color: #ed143d00;
 }
 
 .c-kDxFae > .c-iBVlvN {
-  padding: 0 var(--space-5) 0 65px;
+  padding: 0 var(--space-5) 0 60px;
 }
 /* picture avatar small */
-.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-igNKnsM-css {
+.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-iiylwiw-css {
   width: 50px;
   height: 50px;
   background-size: cover !important;
   background-position: center !important;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 
 .vfrc-header {
@@ -53,8 +56,8 @@
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%); 
-  margin-left: 10px; 
+  transform: translateY(-50%);
+  margin-right: 10px;
 }
 
 .c-iCDrnV .c-kfyIxT {
@@ -164,6 +167,7 @@
   border: #0000ff 4px solid;
   animation: fadeIn 0.5s ease-in-out;
   transition: transform 150ms ease 0s, opacity 150ms ease 0s !important;
+  box-shadow: #000000;
 }
 
 .vfrc-launcher:hover {
@@ -190,6 +194,10 @@
 
 .c-kDxFae > .c-bwlaNm, .c-kDxFae > .c-gSBsRr {
   padding-left: 5px;
+}
+
+.c-gSBsRr .c-kIbiaN {
+  margin: 0px !important;
 }
 
 .vfrc-header--button:nth-of-type(2) .vfrc-icon {
