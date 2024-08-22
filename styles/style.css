@@ -261,6 +261,11 @@
 .c-PJLV-gJqBfM-from-user {
   background-color: #000dff;
   color: #ffffff;
+  text-align: left !important;
+}
+
+.vfrc-proactive-message {
+  border: blue 1px solid;
 }
 
 /* color text area */
