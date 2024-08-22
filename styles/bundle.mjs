@@ -73824,7 +73824,7 @@
           var U;
           return ((U = q.render) == null ? void 0 : U.mode) === Ah.OVERLAY
             ? [
-                { svg: "minus", onClick: g },
+                // { svg: "minus", onClick: g }, // Commented out to remove the minus button
                 { svg: "close", onClick: V },
               ]
             : [{ svg: "close", onClick: V }];
@@ -73866,7 +73866,13 @@
                   type: "warn",
                   onClick: cA(E, oe),
                 },
-                cancel: { label: "Zavřít", onClick: oe },
+                cancel: { 
+                  label: "Zavřít", 
+                  onClick: () => {
+                    g();  
+                    oe(); 
+                  }
+                },
               }),
             ],
           });
