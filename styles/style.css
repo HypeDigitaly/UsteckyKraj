@@ -266,6 +266,7 @@
 
 .vfrc-proactive-message {
   border: blue 1px solid;
+  text-align: left !important;
 }
 
 /* color text area */
