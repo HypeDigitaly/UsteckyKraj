@@ -7,7 +7,7 @@
 }
 
 .vfrc-assistant-info--title {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .vfrc-assistant-info--description {
@@ -24,7 +24,6 @@
   height: 72px;
   background-color: rgb(255 255 255);
   border: #0000ff 1px solid;
-  border-radius: 50%;
 }
 
 .c-iCDrnV .c-kIbiaN {
@@ -36,7 +35,7 @@
 .c-kDxFae > .c-iBVlvN {
   padding: 0 var(--space-5) 0 60px;
 }
-
+/* picture avatar small */
 .c-kIbiaN-iiTsXc-size-small.c-kIbiaN-ibhlLeV-css {
   width: 50px;
   height: 50px;
@@ -210,17 +209,19 @@
   background-color: none;
 }
 
+/* text footer mark */
 .c-cejRVw {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0 var(--space-3) 0;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 17px;
   color: #000dff;
 }
 
+/* color footer mark/ your brand/ */
 .c-cejRVw a {
   color: #0000ff;
 }
@@ -229,6 +230,7 @@
   color: #0000ff;
 }
 
+/* color header/ change here */
 .vfrc-header {
   background-color: #000dff;
   height: 66px;
@@ -236,10 +238,12 @@
   border-bottom-right-radius: 20px;
 }
 
+/* color of the name of the agent/ change here */
 .vfrc-assistant-info--title {
   color: #000000;
 }
 
+/* cancel chat color */
 .c-bXTvXv-igaDqE-type-subtle {
   background-color: #000dff;
   color: #ffffff;
@@ -253,6 +257,7 @@
   text-align: left !important;
 }
 
+/* message send from user */
 .c-PJLV-gJqBfM-from-user {
   background-color: #000dff;
   color: #ffffff;
@@ -261,9 +266,9 @@
 
 .vfrc-proactive-message {
   border: blue 1px solid;
-  text-align: left !important;
 }
 
+/* color text area */
 .vfrc-chat-input textarea,
 .vfrc-chat-input--button {
   color: #000000;
