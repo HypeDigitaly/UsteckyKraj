@@ -188,13 +188,8 @@
     text-align: left !important;
   }
   
-  /* Header avatar image styling - 160x200 */
-  img.vfrc-avatar.g931q10.g931q11.g931q13,
-  img.g931q10.g931q11.g931q13,
-  img[alt="system agent avatar"],
-  .vfrc-header img[src*="ukbot_header_2.png"],
-  .vfrc-header .vfrc-avatar.g931q10.g931q11.g931q13,
-  img[src*="ukbot_header_2.png"] {
+  /* Header avatar image styling - 160x200 - ONLY FOR THE HEADER IMAGE */
+  img[src*="ukbot_header_2.png"].vfrc-avatar.g931q10.g931q11.g931q13[alt="system agent avatar"] {
     width: 160px !important;
     height: 200px !important;
     object-fit: contain !important;
