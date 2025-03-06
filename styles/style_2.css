@@ -188,3 +188,18 @@
     text-align: left !important;
   }
   
+  /* Header avatar image styling - 160x200 */
+  img.g931q10, 
+  img.g931q11, 
+  img.g931q13,
+  img[class*="g931q"],
+  .vfrc-avatar,
+  .vfrc-header .vfrc-avatar,
+  img.vfrc-avatar,
+  .vfrc-avatar img,
+  img[class*="vfrc-avatar"] {
+    width: 160px !important;
+    height: 200px !important;
+    object-fit: contain !important;
+  }
+  
