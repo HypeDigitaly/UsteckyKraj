@@ -189,15 +189,12 @@
   }
   
   /* Header avatar image styling - 160x200 */
-  img.g931q10, 
-  img.g931q11, 
-  img.g931q13,
-  img[class*="g931q"],
-  .vfrc-avatar,
-  .vfrc-header .vfrc-avatar,
-  img.vfrc-avatar,
-  .vfrc-avatar img,
-  img[class*="vfrc-avatar"] {
+  img.vfrc-avatar.g931q10.g931q11.g931q13,
+  img.g931q10.g931q11.g931q13,
+  img[alt="system agent avatar"],
+  .vfrc-header img[src*="ukbot_header_2.png"],
+  .vfrc-header .vfrc-avatar.g931q10.g931q11.g931q13,
+  img[src*="ukbot_header_2.png"] {
     width: 160px !important;
     height: 200px !important;
     object-fit: contain !important;
