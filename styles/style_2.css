@@ -193,5 +193,6 @@
     width: 160px !important;
     height: 200px !important;
     object-fit: contain !important;
+    margin-left: -40px !important; /* Single approach to move left */
   }
   
