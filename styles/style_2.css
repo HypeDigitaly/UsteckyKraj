@@ -17,6 +17,14 @@
     align-items: center !important;
     justify-content: center !important;
     box-sizing: border-box !important;
+    opacity: 1 !important;
+    transition: opacity 0.3s ease !important;
+  }
+  
+  /* Hover state for the button */
+  .vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5:has(.f6dof8t.f6dof8v.f6dof8g):hover {
+    opacity: 0.7 !important;
+    cursor: pointer !important;
   }
   
   /* Target both SVG and IMG when in closed state */
