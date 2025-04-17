@@ -100,7 +100,7 @@ div.f6dof80:has(img[alt="open chat"]) {
   max-width: 92px !important;
   max-height: 92px !important;
   border-radius: 50% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center !important;
   display: block !important;
   padding: 0 !important;
